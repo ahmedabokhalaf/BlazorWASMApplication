@@ -1,0 +1,71 @@
+﻿@page "/employee/edit/{EmpId:int}"
+<h3>EmployeeEdit</h3>
+
+<h1 class="card-title">Enter Fields of @Employee.FirstName @Employee.LastName to Edit</h1>
+<EditForm Model="@Employee">
+    <div class="form-group">
+        <label for="@Employee.FirstName" class="col-form-label"></label>
+        <InputText id="FirstName" class="form-control" @bind-Value="@Employee.FirstName"></InputText>
+        <ValidationMessage For="@(()=>Employee.FirstName)"></ValidationMessage>
+    </div>
+    <div class="form-group">
+        <label for="@Employee.LastName" class="col-form-label"></label>
+        <InputText id="LastName" class="form-control" @bind-Value="@Employee.LastName"></InputText>
+        <ValidationMessage For="@(()=>Employee.LastName)"></ValidationMessage>
+    </div>
+    <div class="form-group">
+        <label for="@Employee.MaritalStatus" class="col-form-label"></label>
+        <InputSelect id="MaritalStatus" class="form-control" @bind-Value="@Employee.MaritalStatus">
+            <option value="@(MaritalStatus.Single)">Single</option>
+            <option value="@(MaritalStatus.Married)">Married</option>
+            <option value="@(MaritalStatus.Absolute)">Absolute</option>
+            <option value="@(MaritalStatus.Engaged)">Engaged</option>
+            <option value="@(MaritalStatus.Other)">Other</option>
+        </InputSelect>
+        <ValidationMessage For="@(()=>Employee.MaritalStatus)"></ValidationMessage>
+    </div>
+    <div class="form-group">
+        <label for="@Employee.Email" class="col-form-label"></label>
+        <InputText id="Email" class="form-control" @bind-Value="@Employee.Email"></InputText>
+        <ValidationMessage For="@(()=>Employee.Email)"></ValidationMessage>
+    </div>
+    <div class="form-group">
+        <label for="@Employee.PhoneNumber" class="col-form-label"></label>
+        <InputText id="PhoneNumber" class="form-control" @bind="@Employee.PhoneNumber"></InputText>
+        <ValidationMessage For="@(()=>Employee.PhoneNumber)"></ValidationMessage>
+    </div>
+    <div class="form-group">
+        <label for="@Employee.Gender" class="col-form-label"></label>
+        <InputSelect id="Gender" class="form-control" @bind-Value="@Employee.Gender">
+            <option value="@(Gender.Male)">Male</option>
+            <option value="@(Gender.Female)">Female</option>
+        </InputSelect>
+        <ValidationMessage For="@(()=>Employee.Gender)"></ValidationMessage>
+    </div>
+    <div class="form-group">
+        <label for="@Employee.BirthDate" class="col-form-label"></label>
+        <InputDate id="BirthDate" class="form-control" @bind-Value="@Employee.BirthDate"></InputDate>
+        <ValidationMessage For="@(()=>Employee.BirthDate)"></ValidationMessage>
+    </div>
+    <div class="form-group">
+        <label for="@Employee.JoinedDate" class="col-form-label"></label>
+        <InputDate id="JoinedDate" class="form-control" @bind-Value="@Employee.JoinedDate"></InputDate>
+        <ValidationMessage For="@(()=>Employee.JoinedDate)"></ValidationMessage>
+    </div>
+    <div class="form-group">
+        <label for="@Employee.ExitDate" class="col-form-label"></label>
+        <InputDate id="ExitDate" class="form-control" @bind-Value="@Employee.ExitDate"></InputDate>
+        <ValidationMessage For="@(()=>Employee.ExitDate)"></ValidationMessage>
+    </div>
+    <div class="form-group">
+        <label for="@Employee.Country" class="col-form-label"></label>
+        <InputSelect id="Country" class="form-control" @bind-Value="@Employee.Country">
+            @foreach (var item in Countries)
+            {
+                <option value="@item.Id">@item.Name</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="@(()=>Employee.Country)"></ValidationMessage>
+    </div>
+
+</EditForm>

@@ -1,0 +1,48 @@
+﻿@page "/employees/overview"
+@using WASMLibrary.Models;
+
+<h3>Employees Overview</h3>
+@if (Employees != null)
+{
+    <table class="table">
+        <tr>
+            <th>Employee Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th></th>
+        </tr>
+        @foreach (var item in Employees)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>
+                    <a href="employee/details/@item.Id" class="btn btn-success text-black">Details</a>
+                    <a href="employee/edit/@item.Id" class="btn btn-success text-black">Edit</a>
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <div class="d-flex justify-content-center" style="padding-top:250px">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+}
+
+
+@code {
+    List<Employee> Employees;
+    //List<Country> Countries;
+    [Inject]
+    public HttpClient httpClient { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Employees = await httpClient.GetFromJsonAsync<List<Employee>>("https://localhost:7241/Employees");
+    }
+}

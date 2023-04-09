@@ -1,0 +1,101 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\obj\\Debug\\net6.0\\build-gz\\cKx9AsJ1.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WASM.App.styles.css",
+      "PackagePath": "staticwebassets\\WASM.App.styles.css"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\Images\\loading-waiting.gif",
+      "PackagePath": "staticwebassets\\Images\\loading-waiting.gif"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Projects\\Blazor\\WASMApplication\\WASM.App\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WASM.App.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WASM.App.props",
+      "PackagePath": "build\\WASM.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WASM.App.props",
+      "PackagePath": "buildMultiTargeting\\WASM.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WASM.App.props",
+      "PackagePath": "buildTransitive\\WASM.App.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

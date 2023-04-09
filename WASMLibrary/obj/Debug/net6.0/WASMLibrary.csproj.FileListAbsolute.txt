@@ -1,0 +1,12 @@
+D:\Projects\Blazor\WASMApplication\WASMLibrary\bin\Debug\net6.0\WASMLibrary.deps.json
+D:\Projects\Blazor\WASMApplication\WASMLibrary\bin\Debug\net6.0\WASMLibrary.dll
+D:\Projects\Blazor\WASMApplication\WASMLibrary\bin\Debug\net6.0\WASMLibrary.pdb
+D:\Projects\Blazor\WASMApplication\WASMLibrary\obj\Debug\net6.0\WASMLibrary.csproj.AssemblyReference.cache
+D:\Projects\Blazor\WASMApplication\WASMLibrary\obj\Debug\net6.0\WASMLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Blazor\WASMApplication\WASMLibrary\obj\Debug\net6.0\WASMLibrary.AssemblyInfoInputs.cache
+D:\Projects\Blazor\WASMApplication\WASMLibrary\obj\Debug\net6.0\WASMLibrary.AssemblyInfo.cs
+D:\Projects\Blazor\WASMApplication\WASMLibrary\obj\Debug\net6.0\WASMLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\Blazor\WASMApplication\WASMLibrary\obj\Debug\net6.0\WASMLibrary.dll
+D:\Projects\Blazor\WASMApplication\WASMLibrary\obj\Debug\net6.0\refint\WASMLibrary.dll
+D:\Projects\Blazor\WASMApplication\WASMLibrary\obj\Debug\net6.0\WASMLibrary.pdb
+D:\Projects\Blazor\WASMApplication\WASMLibrary\obj\Debug\net6.0\ref\WASMLibrary.dll

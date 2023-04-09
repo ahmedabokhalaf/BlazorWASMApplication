@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NGycrtjcMRb2f7R8RQdv1nFwTQ6oWgcxMzQw7iHa+M8=",
+  "Source": "WASM.API",
+  "BasePath": "_content/WASM.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
