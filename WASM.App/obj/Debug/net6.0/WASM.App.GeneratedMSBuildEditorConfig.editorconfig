@@ -28,8 +28,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRyaWVzT3ZlcnZpZXcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Blazor/WASMApplication/WASM.App/Pages/EditEmployee.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEVtcGxveWVlLnJhem9y
+[D:/Projects/Blazor/WASMApplication/WASM.App/Pages/CreateEmployee.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlRW1wbG95ZWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Projects/Blazor/WASMApplication/WASM.App/Pages/EmployeeDetails.razor]
@@ -46,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Projects/Blazor/WASMApplication/WASM.App/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Blazor/WASMApplication/WASM.App/Pages/UpdateEmployee.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlRW1wbG95ZWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Projects/Blazor/WASMApplication/WASM.App/Shared/SurveyPrompt.razor]
