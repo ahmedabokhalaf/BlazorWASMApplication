@@ -1,0 +1,53 @@
+﻿@page "/Countries/overview"
+@using WASM.App.Services;
+@using WASMLibrary.Models;
+
+<h3>Countries Overview</h3>
+@if (Countries != null)
+{
+    <table class="table">
+        <tr>
+            <th>Country Id</th>
+            <th>Country Name</th>
+            <th></th>
+        </tr>
+        @foreach (var item in Countries)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>
+                    <a href="Country/details/@item.Id" class="btn btn-success text-black">Details</a>
+                    <a href="Country/edit/@item.Id" class="btn btn-success text-black">Edit</a>
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <div class="d-flex justify-content-center" style="padding-top:250px">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+}
+
+
+@code {
+    IEnumerable<Country> Countries;
+    ////List<Country> Countries;
+    //[Inject]
+    //public HttpClient httpClient { get; set; }
+
+    //protected override async Task OnInitializedAsync()
+    //{
+    //    Countries = await httpClient.GetFromJsonAsync<List<Country>>("https://localhost:7241/Countries");
+    //}
+    [Inject]
+    public IDataService<Country> CountryDataService { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        Countries = await CountryDataService.GetAllAsync();
+    }
+}
